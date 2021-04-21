@@ -2,7 +2,6 @@ cmake_minimum_required(VERSION 2.8)
 
 set(CMAKE_COMPILER_IS_CYGWIN 1)
 add_definitions(-DWIN32)
-add_definitions(-D_WIN32)
 add_definitions(-D__CYGWIN__)
 add_definitions(-D__MINGW32__)
 
